@@ -35,43 +35,43 @@ IBM Cloud Container Registry is a multi-tenant registry in the public cloud. Nam
 Create an IBM Cloud account
 ===========================
 
-1.  Go to [IBM Cloud sign-up page](https://cloud.ibm.com/registration?target=%2Fkubernetes%2Fregistry%2Fmain%2Fstart&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-cc201-17568655&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ&cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-cc201-17568655&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ).
+1.  Go to [IBM Cloud sign-up page](https://cloud.ibm.com/registration?cm_mmc=Inpersondirected-_-Audience+Developer_Developer+Conversation-_-WW_WW-_-Sep2020-understandingcontainerswithkubernetesoncloud-workshopseries-eventid-5f60da0db65b87024455335b-global-devadvgrp-bangalore-franchise-workshop-bangalore_ov75915&cm_mmca1=000039JL&cm_mmca2=10010797&eventid=5f60da0db65b87024455335b).
 
 2.  Follow the steps to create your account. You will need to provide an email address and password, as well as some personal information. You'll have to verify your account by accessing your email.\
-    ![IBM Cloud signup page](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/signup-page.png)
+    ![IBM Cloud signup page](/images/1.png)
 
-3.  Once you have created an account, go to the [IBM Cloud login page](https://cloud.ibm.com/login?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-cc201-17568655&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ) and log in to your account.\
-    ![IBM Cloud login page](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/login-page.png)
+3.  Once you have created an account, go to the [IBM Cloud login page](https://cloud.ibm.com/registration?cm_mmc=Inpersondirected-_-Audience+Developer_Developer+Conversation-_-WW_WW-_-Sep2020-understandingcontainerswithkubernetesoncloud-workshopseries-eventid-5f60da0db65b87024455335b-global-devadvgrp-bangalore-franchise-workshop-bangalore_ov75915&cm_mmca1=000039JL&cm_mmca2=10010797&eventid=5f60da0db65b87024455335b) and log in to your account.\
+    ![IBM Cloud login page](/images/2.png)
 
-Congratulations! You can now explore the [IBM Cloud catalog](https://cloud.ibm.com/catalog?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-cc201-17568655&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ) and provision various services.
+Congratulations! You can now explore the [IBM Cloud catalog](https://cloud.ibm.com/kubernetes/catalog/) and provision various services.
 
 Create a Container Registry namespace
 =====================================
 
-1.  Click the **Catalog** button in the top navigation to go to the [IBM Cloud catalog](https://cloud.ibm.com/catalog?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-cc201-17568655&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ).
+1.  Click the **Catalog** button in the top navigation to go to the [IBM Cloud catalog](https://cloud.ibm.com/registration?cm_mmc=Inpersondirected-_-Audience+Developer_Developer+Conversation-_-WW_WW-_-Sep2020-understandingcontainerswithkubernetesoncloud-workshopseries-eventid-5f60da0db65b87024455335b-global-devadvgrp-bangalore-franchise-workshop-bangalore_ov75915&cm_mmca1=000039JL&cm_mmca2=10010797&eventid=5f60da0db65b87024455335b).
 
 2.  In the **Search the catalog...** box, type `Container Registry` and press Enter on your keyboard.
 
 3.  Click the **Container Registry** tile in the search results.\
-    ![Container Registry tile](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/registry-tile.png)
+    ![Container Registry tile]/images/7.png)
 
 4.  You can now read about the Container Registry service and visit links for API documentation and docs about how to use the service.\
-    ![Registry catalog](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/registry-catalog.png)
+    ![Registry catalog](/images/3.png)
 
 5.  At the top right, click **Create**.
 
 6.  Ensure that the location is set to **Dallas**.\
-    ![Container Registry location](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/registry-location.png)
+    ![Container Registry location](/images/4.png)
 
 7.  Click the **Namespaces** tab.\
-    ![Container Registry namespaces menu](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/registry-namespaces-menu.png)
+    ![Container Registry namespaces menu](/images/5.png)
 
 8.  On the right side of the Namespaces panel, click **Create**. A **Create namespace** panel opens.
 
 9.  In the **Resource group** field, select the name of the resource group you would like this namespace to reside in. For this lab, you can simply leave the selection as **default**.
 
 10. In the **Name** field, type a unique name for the namespace. The name must be unique across all users of the Container Registry service in this region.\
-    ![Container Registry namespace create](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cc201/labs/1a_ContainerRegistry/images/registry-namespace-create.png)
+    ![Container Registry namespace create](/images/6.png)
 
 11. Click **Create** at the bottom of the panel to create the namespace.
 
