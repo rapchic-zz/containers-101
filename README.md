@@ -74,7 +74,6 @@ Create a Container Registry namespace
     ![Container Registry namespace create](/images/6.png)
 
 11. Click **Create** at the bottom of the panel to create the namespace.
+![Container Registry namespace create](/images/8.png)
 
 You now have a namespace to which you can push images.
-
-Congratulations! You have completed the second lab for the first module of this course.
