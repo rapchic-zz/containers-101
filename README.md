@@ -1,6 +1,7 @@
 # containers-101
 Introduction to containers with Docker, Kubernetes and OpenShift basics
 
+
 Lab 1:
 Creating an IBM Cloud Container Registry Namespace
 ==================================================
