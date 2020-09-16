@@ -54,7 +54,7 @@ Create a Container Registry namespace
 2.  In the **Search the catalog...** box, type `Container Registry` and press Enter on your keyboard.
 
 3.  Click the **Container Registry** tile in the search results.\
-    ![Container Registry tile]/images/7.png)
+    ![Container Registry tile](/images/7.png)
 
 4.  You can now read about the Container Registry service and visit links for API documentation and docs about how to use the service.\
     ![Registry catalog](/images/3.png)
@@ -74,7 +74,7 @@ Create a Container Registry namespace
 10. In the **Name** field, type a unique name for the namespace. The name must be unique across all users of the Container Registry service in this region.\
     ![Container Registry namespace create](/images/6.png)
 
-11. Click **Create** at the bottom of the panel to create the namespace.
+11. Click **Create** at the bottom of the panel to create the namespace.\
 ![Container Registry namespace create](/images/8.png)
 
 You now have a namespace to which you can push images.
